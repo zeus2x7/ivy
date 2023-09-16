@@ -57,6 +57,7 @@ def test_sklearn_column_or_1d(
         y=x[0],
     )
 
+
 @handle_frontend_test(
     fn_tree="sklearn.utils.validation._num_samples",
     dtype_and_x=helpers.dtype_and_values(
